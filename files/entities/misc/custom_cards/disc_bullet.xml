@@ -1,0 +1,43 @@
+<Entity>
+	<Base file="data/entities/base_custom_card.xml">
+		<ItemComponent
+			_tags="enabled_in_world,enabled_in_hand"
+			is_equipable_forced="1">
+		</ItemComponent>
+
+		<SpriteComponent
+			image_file="data/ui_gfx/gun_actions/disc_bullet.png">
+		</SpriteComponent>
+
+		<ItemActionComponent
+			_tags="enabled_in_world"
+			action_id="DISC_BULLET">
+		</ItemActionComponent>
+	</Base>
+
+	<InheritTransformComponent
+		_tags="enabled_in_world,enabled_in_hand"
+		parent_hotspot_tag="shoot_pos">
+	</InheritTransformComponent>
+
+	<SpriteComponent
+		_tags="enabled_in_hand,not_enabled_in_wand"
+		_enabled="0"
+		offset_x="3.5"
+		offset_y="3.5"
+		image_file="data/projectiles_gfx/disc_bullet.xml">
+	</SpriteComponent>
+
+	<AbilityComponent
+		_tags="enabled_in_hand"
+		ui_name="$action_disc_bullet"
+		entity_file="mods/disk_materialized_loadout/files/entities/projectiles/disc_bullet_materialized.xml"
+		rotate_hand_amount="0.05"
+		throw_as_item="1"
+		simulate_throw_as_item="1"
+		use_entity_file_as_projectile_info_proxy="1">
+		<gun_config
+			deck_capacity="0">
+		</gun_config>
+	</AbilityComponent>
+</Entity>
