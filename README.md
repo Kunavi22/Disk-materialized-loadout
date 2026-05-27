@@ -4,3 +4,8 @@ Adds disk projectile to Bombs Materialized perk pool, so you can use it as an it
 <img width="512" height="94" alt="Screenshot 2026-05-27 192606" src="https://github.com/user-attachments/assets/64178a55-9605-4e07-aa89-dec36faa95d2" />
 
 Loadout includes: Bombs Materialized perk, disk projectile, bomb or dynomite (random), starting potion, big universal bag (if you have bags of many mod enabled). All loadout items is togglable through mod settings.
+
+# Install Instructions
+
+ - Download the *[latest release](https://github.com/Kunavi22/Disk-materialized-loadout/releases/latest)*
+ - Extract into your noita mod folder (`C:/Program Files (x86)/Steam/steamapps/common/Noita/mods/` for steam users)
